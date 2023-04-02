@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automcomplete Input</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        #tagsList, #tagsInput { margin: 1rem auto; }
+    </style>
+  </head>
+  <body>
+    
+
+    <form autocomplete="off">
+      <div>
+        <div class="tags"></div>
+        <input type="text" id="input" placeholder="Type a name here..." class="tag" value=""/>
+      </div>
+      <ul class="list"></ul>
+    </form>
+    <!--Script-->
+    <script src="script.js"></script>
+  </body>
+</html>
